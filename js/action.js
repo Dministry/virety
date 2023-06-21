@@ -4,7 +4,7 @@ function openForm(e) {
 }
 
 function closeForm(e) {
-    document.getElementById("myForm").style.display = "block";
+    document.getElementById("myForm").style.display = "none";
     e.preventDefault();
 }
 
